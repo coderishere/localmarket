@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">connect</string>
+    <string name="back4app_server_url">https://parseapi.back4app.com/</string>
+
+    <!-- Change the following strings as required -->
+    <string name="back4app_app_id">yg00t6Rqe60dXGCDZPAOu5QDFrYR2ljiCebPIH8H</string>
+    <string name="back4app_client_key">4UzGo4ackk8IHF2d3On11tUm1AH8WKAZMdTfmwVe</string>
+
+    <string name="openthelink"><a href="https://www.google.com/">Tap here to open Link</a></string>
+    <string-array name="spinner_item">
+        <item>Book</item>
+        <item>Electronics</item>
+    </string-array>
+
+</resources>

@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/PRODUCT_NAME"
+        android:layout_width="333dp"
+        android:layout_height="65dp"
+        android:layout_marginBottom="624dp"
+        android:layout_marginEnd="47dp"
+        android:layout_marginStart="31dp"
+        android:layout_marginTop="64dp"
+        android:background="@drawable/search_round"
+        android:paddingLeft="5dp"
+        android:text="product_name"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.51" />
+
+    <TextView
+        android:id="@+id/SHOP_PRICE"
+        android:layout_width="202dp"
+        android:layout_height="46dp"
+        android:layout_marginBottom="542dp"
+        android:layout_marginEnd="177dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="35dp"
+        android:background="@drawable/search_round"
+        android:paddingLeft="5dp"
+        android:text="Shop_price"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.115"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/PRODUCT_NAME"
+        app:layout_constraintVertical_bias="0.416" />
+
+    <TextView
+        android:id="@+id/STOCK"
+        android:layout_width="202dp"
+        android:layout_height="46dp"
+        android:layout_marginBottom="462dp"
+        android:layout_marginEnd="175dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="31dp"
+        android:background="@drawable/search_round"
+        android:paddingLeft="5dp"
+        android:text="Stock"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/SHOP_PRICE"
+        app:layout_constraintVertical_bias="0.8" />
+
+    <TextView
+        android:id="@+id/SHOP_OFFER"
+        android:layout_width="202dp"
+        android:layout_height="46dp"
+        android:layout_marginBottom="386dp"
+        android:layout_marginEnd="175dp"
+        android:layout_marginStart="34dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/search_round"
+        android:paddingLeft="5dp"
+        android:text="shop_offer"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.086"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/STOCK"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/POLICY"
+        android:layout_width="202dp"
+        android:layout_height="46dp"
+        android:layout_marginBottom="301dp"
+        android:layout_marginEnd="175dp"
+        android:layout_marginStart="34dp"
+        android:layout_marginTop="39dp"
+        android:background="@drawable/search_round"
+        android:paddingLeft="5dp"
+        android:text="policy"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.086"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/SHOP_OFFER"
+        app:layout_constraintVertical_bias="0.333" />
+
+    <Button
+        android:id="@+id/buy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="135dp"
+        android:layout_marginEnd="154dp"
+        android:layout_marginStart="34dp"
+        android:background="@drawable/shopkeeper_button"
+        android:text="Buy"
+        android:paddingLeft="5dp"
+        android:textColor="@color/common_google_signin_btn_text_dark_default"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/cancel1"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/cancel1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="135dp"
+        android:layout_marginStart="154dp"
+        android:background="@drawable/cancel_button"
+        android:text="cancel"
+        android:paddingLeft="5dp"
+        android:textColor="@color/common_google_signin_btn_text_dark_focused"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/buy" />
+
+    <TextView
+        android:id="@+id/SHOP_ADRRESS"
+        android:layout_width="365dp"
+        android:layout_height="64dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="28dp"
+        android:background="@drawable/search_round"
+        android:paddingLeft="5dp"
+        android:text="shop_address"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/POLICY" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

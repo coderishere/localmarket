@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/user_kart_cancel"
+        android:icon="@drawable/ic_check_box_outline_blank_24"
+        android:title="cart"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/user_kart"
+        android:icon="@drawable/ic_baseline_shopping_cart"
+        android:title="cart"
+        app:showAsAction="ifRoom"/>
+<item
+    android:id="@+id/notification"
+    android:icon="@drawable/ic_baseline_notifications_24"
+    android:title="notifications"
+    app:showAsAction="always"/>
+</menu>

@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".loginactivity">
+
+    <Button
+        android:id="@+id/button_returns"
+        android:layout_width="180dp"
+        android:layout_height="89dp"
+        android:layout_marginEnd="310dp"
+        android:layout_marginStart="310dp"
+        android:layout_marginTop="73dp"
+        android:background="@android:color/background_dark"
+        android:onClick="loginbutton"
+        android:text="Login"
+        android:textColor="@android:color/background_light"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/password1" />
+
+    <EditText
+        android:id="@+id/password1"
+        android:layout_width="719dp"
+        android:layout_height="79dp"
+        android:layout_marginEnd="26dp"
+        android:layout_marginStart="55dp"
+        android:layout_marginTop="90dp"
+        android:background="@drawable/search_round"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="textPersonName"
+        android:paddingLeft="5dp"
+        android:textSize="40sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/username1" />
+
+    <EditText
+        android:id="@+id/username1"
+        android:layout_width="719dp"
+        android:layout_height="78dp"
+        android:layout_marginEnd="26dp"
+        android:layout_marginStart="55dp"
+        android:layout_marginTop="75dp"
+        android:background="@drawable/search_round"
+        android:ems="10"
+        android:hint="Username"
+        android:inputType="textPersonName"
+        android:paddingLeft="5dp"
+        android:textSize="40sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/logo2" />
+
+    <ImageView
+        android:id="@+id/logo2"
+        android:layout_width="149dp"
+        android:layout_height="136dp"
+        android:layout_marginBottom="876dp"
+        android:layout_marginEnd="176dp"
+        android:layout_marginStart="145dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.593"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/logo" />
+
+    <TextView
+        android:id="@+id/ForgotText"
+        android:layout_width="180dp"
+        android:layout_height="22dp"
+        android:layout_marginBottom="520dp"
+        android:layout_marginEnd="26dp"
+        android:layout_marginStart="594dp"
+        android:text="Forgot Passsword?"
+        android:textColor="@android:color/holo_blue_dark"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="170sp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="342dp"
+        android:layout_marginStart="268dp"
+        android:text="Create an account?"
+        android:textSize="19sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/signupTextView"
+        android:layout_width="90sp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="342dp"
+        android:layout_marginEnd="278dp"
+        android:text="sign up"
+        android:textColor="@android:color/holo_blue_light"
+        android:textSize="19sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

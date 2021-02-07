@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="1200dp">
+
+    <Button
+        android:id="@+id/accept"
+        android:layout_width="177dp"
+        android:layout_height="85dp"
+        android:layout_marginBottom="271dp"
+        android:layout_marginStart="74dp"
+        android:background="@drawable/shopkeeper_button"
+        android:text="Accept"
+        android:textColor="@color/common_google_signin_btn_text_dark_default"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/cancel3"
+        android:layout_width="178dp"
+        android:layout_height="85dp"
+        android:layout_marginBottom="271dp"
+        android:layout_marginEnd="128dp"
+        android:background="@drawable/cancel_button"
+        android:text="cancel"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <TextView
+        android:id="@+id/Landmark"
+        android:layout_width="515dp"
+        android:layout_height="107dp"
+        android:layout_marginEnd="269dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="87dp"
+        android:background="@drawable/search_round"
+        android:text="TextView"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Full_Name" />
+
+    <TextView
+        android:id="@+id/Phone_Number"
+        android:layout_width="515dp"
+        android:layout_height="107dp"
+        android:layout_marginEnd="269dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="48dp"
+        android:background="@drawable/search_round"
+        android:text="TextView"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Address1" />
+
+    <TextView
+        android:id="@+id/Full_Name"
+        android:layout_width="698dp"
+        android:layout_height="123dp"
+        android:layout_marginEnd="86dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="111dp"
+        android:background="@drawable/search_round"
+        android:text="TextView"
+        android:textSize="35sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/Address1"
+        android:layout_width="515dp"
+        android:layout_height="107dp"
+        android:layout_marginEnd="269dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="63dp"
+        android:background="@drawable/search_round"
+        android:text="TextView"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Landmark" />
+</androidx.constraintlayout.widget.ConstraintLayout>

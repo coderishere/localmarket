@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<item android:id="@+id/returns"
+    android:title="return"/>
+    <item android:id="@+id/replace"
+        android:title="replace"/>
+    <item android:id="@+id/logout_shop"
+        android:title="logout"/>
+</menu>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" >
+
+
+    <item
+        android:id="@+id/check_availability"
+        android:title="availablity"
+        android:icon="@drawable/ic_baseline_event_available_24"
+        app:showAsAction="ifRoom"/>
+
+
+    <item
+        android:id="@+id/shoping_kart"
+        android:icon="@drawable/ic_baseline_shopping_cart"
+        android:title="cart"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/action_cart"
+        android:icon="@drawable/ic_baseline_notifications_24"
+        android:title="cart"
+        app:showAsAction="ifRoom"/>
+
+
+</menu>

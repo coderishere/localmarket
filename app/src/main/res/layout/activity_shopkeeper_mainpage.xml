@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Shopkeeper_mainpage">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="420dp"
+        android:layout_height="291dp"
+        android:layout_marginBottom="286dp"
+        android:layout_marginTop="93dp"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/background" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignBottom="@+id/imageView"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="180dp"
+        android:layout_marginEnd="157dp"
+        android:layout_marginStart="138dp"
+        android:layout_marginTop="70dp"
+        app:srcCompat="@drawable/logo" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginBottom="16dp"
+        android:layout_marginEnd="347dp"
+        android:layout_marginTop="24dp"
+        app:srcCompat="@drawable/logo" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="300dp"
+        android:layout_height="29dp"
+        android:layout_alignBottom="@+id/imageView"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="134dp"
+        android:layout_marginEnd="22dp"
+        android:layout_marginStart="54dp"
+        android:text="Think LOCAL Get FAST"
+        android:textColor="@color/common_google_signin_btn_text_dark_default"
+        android:textSize="25sp"
+        app:layout_constraintTop_toBottomOf="@+id/imageView3" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginBottom="21dp"
+        android:layout_marginEnd="251dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="41dp"
+        android:text="LOCAL MARKET"
+        android:textColor="@color/common_google_signin_btn_text_dark_focused"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/menu_icon"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginBottom="7dp"
+        android:layout_marginEnd="12dp"
+        android:layout_marginStart="203dp"
+        android:layout_marginTop="24dp"
+        app:srcCompat="@drawable/menuitem_icon" />
+
+    <ViewFlipper
+        android:id="@+id/view_flipper1"
+        android:layout_width="match_parent"
+        android:layout_height="275dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="385dp">
+
+    </ViewFlipper>
+
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/view_flipper1"
+        android:layout_marginEnd="53dp"
+        android:layout_marginStart="58dp"
+        android:layout_marginTop="26dp"
+        android:text="HOW LOCAL MARKET WORKS?.."
+        android:textAlignment="center"
+        android:textColor="@color/common_google_signin_btn_text_dark_focused"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:layout_width="140dp"
+        android:layout_height="120dp"
+        android:layout_below="@+id/view_flipper1"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="97dp"
+        app:srcCompat="@drawable/onlinesearch"
+        android:id="@+id/searchproduct"/>
+
+    <TextView
+        android:id="@+id/firstStep"
+        android:layout_width="216dp"
+        android:layout_height="72dp"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/view_flipper1"
+        android:layout_marginEnd="17dp"
+        android:layout_marginTop="110dp"
+        android:text="User get the desire product at the e-commerce platform"
+        android:textAlignment="center"
+        android:textColor="@color/common_google_signin_btn_text_dark_focused"
+        android:textSize="20sp"
+        android:textStyle="italic" />
+
+    <ImageView
+        android:layout_width="140dp"
+        android:layout_height="120dp"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/firstStep"
+        android:layout_marginEnd="16dp"
+        android:layout_marginTop="69dp"
+        app:srcCompat="@drawable/copylink"
+        android:id="@+id/copylink"/>
+
+    <TextView
+        android:layout_width="216dp"
+        android:layout_height="72dp"
+        android:layout_below="@+id/searchproduct"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="55dp"
+        android:text="Copy the link of that product and paste it in the search box"
+        android:textAlignment="center"
+        android:textColor="@color/common_google_signin_btn_text_dark_focused"
+        android:textSize="20sp"
+        android:id="@+id/secondStep"
+        android:textStyle="italic" />
+
+    <ImageView
+        android:layout_width="140dp"
+        android:layout_height="100dp"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/secondStep"
+        android:layout_marginEnd="237dp"
+        android:layout_marginTop="55dp"
+        app:srcCompat="@drawable/timetaking"
+        android:id="@+id/timetakings"/>
+
+    <TextView
+        android:id="@+id/thirdstep"
+        android:layout_width="216dp"
+        android:layout_height="146dp"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/copylink"
+        android:layout_marginEnd="10dp"
+        android:layout_marginTop="30dp"
+        android:text="choose a cateogory and the product notification will available to you according to your cateogory"
+        android:textAlignment="center"
+        android:textColor="@color/common_google_signin_btn_text_dark_focused"
+        android:textSize="20sp"
+        android:textStyle="italic" />
+
+    <ImageView
+        android:id="@+id/quicksearchimage"
+        android:layout_width="140dp"
+        android:layout_height="120dp"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@id/thirdstep"
+        android:layout_marginEnd="26dp"
+        android:layout_marginTop="18dp"
+        app:srcCompat = "@drawable/newquick"/>
+
+    <TextView
+        android:id="@+id/lastStep"
+        android:layout_width="216dp"
+        android:layout_height="135dp"
+        android:layout_below="@+id/timetakings"
+        android:layout_marginEnd="17dp"
+        android:layout_marginTop="45dp"
+        android:layout_toStartOf="@+id/quicksearchimage"
+        android:text="Response accurately and quick to increase the chances of selling of your product without much effort"
+        android:textAlignment="center"
+        android:textColor="@color/common_google_signin_btn_text_dark_focused"
+        android:textSize="20sp"
+        android:textStyle="italic" />
+
+
+</RelativeLayout>
+</ScrollView>
